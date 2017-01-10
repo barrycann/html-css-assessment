@@ -126,7 +126,14 @@ ul{
     bottom: 0;
 }
 
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
 .lower-logo{
+    margin-bottom: 15px;
     width: 50px;
-    margin: 0 46%;
 }

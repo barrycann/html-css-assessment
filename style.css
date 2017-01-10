@@ -1,0 +1,132 @@
+@media (max-width: 700px){
+    .fullscreen-nav{
+        display: none;
+    }
+    .smallscreen-nav{
+        display: block;
+    }
+}
+
+@media (min-width: 701px){
+    .fullscreen-nav{
+        display: block;
+    }
+    .smallscreen-nav{
+        display: none;
+    }
+
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/main-bg.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+.abs-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron{
+    height: 100vh;
+    position: relative;
+}
+
+.fullscreen-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.smallscreen-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav{
+    width: 90%;
+    margin: 0 5%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-nav li{
+    width: calc(98%/3);
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.center-text{
+    width: 75%;
+}
+
+.hamburger{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    padding: 20px;
+}
+
+.hamburger img{
+    width: 60px;
+}
+
+.social-logos{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    padding: 30px 40px;
+    width: 50%;
+    color: white;
+}
+
+.social-icon{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    padding-left: 50px;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.lower-logo{
+    width: 50px;
+    margin: 0 46%;
+}
